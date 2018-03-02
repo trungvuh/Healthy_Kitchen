@@ -1,0 +1,23 @@
+{
+  "name": "LunchPlan",
+  "version": "1.0.0",
+  "description": "## [Home Page](https://trungvuh.github.io/LunchPlan/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungvuh/Healthy_Kitchen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungvuh/Healthy_Kitchen/issues"
+  },
+  "homepage": "https://github.com/trungvuh/Healthy_Kitchen#readme",
+  "dependencies": {
+    "respond.js": "^1.4.2"
+  }
+}
