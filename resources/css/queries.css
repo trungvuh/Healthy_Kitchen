@@ -1,14 +1,27 @@
-/*  Fr small phones  */
 
-@media only screen and (max-width: 480px) {
+/* For larger tablets or tablets landscape mode */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
     
-}
-
-
-/* For small phones to small tablets */
-
-@media only screen and (max-width: 767px) {
+    .row {
+        padding: 0 2%;
+    }
     
+    .steps-box:last-child {
+        margin-top: 3rem;
+    }
+    
+    .footer-nav, .social-links {
+        width: 100%;
+    }
+    
+    .footer-nav li, .social-links li {
+        margin: 0 0.25%;
+    }
 }
 
 
@@ -64,12 +77,6 @@
         font-size: 80%;
     }
     
-/*
-    .footer-nav, .social-links {
-        width: 100%;
-        font-size: 90%;
-    }
-*/
     
     .footer-nav li, .social-links li {
         margin: 0 0.25%;
@@ -78,28 +85,120 @@
 }
 
 
-/* For larger tablets or tablets landscape mode */
 
-@media only screen and (max-width: 1200px) {
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
+/* For small phones to small tablets */
+
+@media only screen and (max-width: 767px) {
+    body, html {
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 2rem 0;
+    }
+    
+    h1 {
+        font-size: 180%;
+    }
+    
+    h2 {
+        font-size: 150%;
     }
     
     .row {
-        padding: 0 2%;
+        padding: 2% 5%;
     }
     
-    .steps-box:last-child {
-        margin-top: 3rem;
+    .icon-big {
+        margin: 2% 0;
+    }
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 4%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+    }
+    
+    .work-step p {
+        font-size: 90%;
+        padding-top: 0.7rem;
+    }
+    
+    .plan-box {
+        font-size: 100%;
+    }
+    
+    .box img {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+    
+    .city-feature {
+        margin-left: 35%;
+    }
+    
+    .btn-app {
+        margin-left: 13%;
+    }
+    
+    footer {
+        font-size: 110%;
     }
     
     .footer-nav, .social-links {
-        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
     }
     
     .footer-nav li, .social-links li {
-        margin: 0 0.25%;
+        margin: 0 1%;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin-top: 0;
     }
 }
+
+
+/*  Fr small phones  */
+
+@media only screen and (max-width: 480px) {
+    
+    section {
+        padding: 1.5rem;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+    .btn-app {
+        margin-left: 2%;
+    }
+    
+    .city-feature {
+        margin-left: 25%;
+    }
+    
+}
+
+
+
+
+
+
 
