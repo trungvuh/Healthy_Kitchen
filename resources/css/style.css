@@ -25,14 +25,47 @@ html {
     margin: 0 auto;
 }
 
-h1 {
-    margin: 0 0 1rem 0;
-    color: #fff;
-    font-size: 2.5rem;
+section {
+    padding: 4rem 0;
+}
+
+/* -----------------------------
+            Headings
+--------------------------------*/
+
+h1, h2, h3 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h1 {
+    color: #fff;
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
     word-spacing: 4px;
+}
+
+h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+    word-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 10rem;
+    margin: 1.5rem auto;
 }
 
 /* -----------------------------
@@ -82,7 +115,7 @@ header {
     text-transform: uppercase;
     font-size: 1rem;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s;
+    transition: border-bottom 0.5s;
     padding: 0.25rem 0;
 }
 
@@ -125,4 +158,39 @@ header {
     background-color: #bf6516;
     color: #fff;
     border: 1px solid #bf6516;
+}
+
+/* -----------------------------
+            Icon
+--------------------------------*/
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin: 1rem 0;
+}
+
+/* -----------------------------
+            Section 1
+--------------------------------*/
+
+.section-features  {
+    text-align: center;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 0.9rem;
+    line-height: 145%;
+    text-align: left;
 }
