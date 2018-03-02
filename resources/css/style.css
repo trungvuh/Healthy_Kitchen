@@ -142,7 +142,8 @@ header {
 --------------------------------*/
 
 .btn:link, 
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 0.5rem 1.5rem;
     font-weight: 300;
@@ -154,7 +155,8 @@ header {
 
 
 .btn-full:link, 
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
@@ -167,10 +169,13 @@ header {
 }
 
 .btn:hover, 
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:hover {
     background-color: #bf6516;
     color: #fff;
     border: 1px solid #bf6516;
+    cursor: pointer;
 }
 
 /* -----------------------------
@@ -445,4 +450,44 @@ cite img {
 
 .plan-box div:first-child {
     background-color: #efefef;
+}
+
+
+/* -----------------------------
+    Section 7 - Contact Form
+--------------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-label {
+    margin-top: 1.7%;
+    vertical-align: middle;
+}
+
+input[type=text],
+input[type=email],
+select, textarea {
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 50%;
+}
+
+textarea {
+    height: 5rem;
+}
+
+input[type=checkbox] {
+    margin: 0.5rem 0.25rem 0.5rem 0;
+}
+
+*:focus {
+    outline: none;
 }
