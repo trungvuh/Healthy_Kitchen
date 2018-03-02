@@ -1,0 +1,105 @@
+/*  Fr small phones  */
+
+@media only screen and (max-width: 480px) {
+    
+}
+
+
+/* For small phones to small tablets */
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* For normal tablets  */
+
+@media only screen and (max-width: 1023px) {
+    body, html {
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 3rem 0;
+    }
+    
+    .long-copy {
+        line-height: 145%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box {
+        margin-top: 10px;
+    }
+    
+    .steps-box:last-child {
+        margin-top: 4rem;
+    }
+    
+    .work-step {
+        margin: 2rem 0;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 3rem;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+    .icon-small {
+        width: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    
+    .city-feature {
+        font-size: 90%;
+    }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 80%;
+    }
+    
+/*
+    .footer-nav, .social-links {
+        width: 100%;
+        font-size: 90%;
+    }
+*/
+    
+    .footer-nav li, .social-links li {
+        margin: 0 0.25%;
+    }
+    
+}
+
+
+/* For larger tablets or tablets landscape mode */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+    
+    .steps-box:last-child {
+        margin-top: 3rem;
+    }
+    
+    .footer-nav, .social-links {
+        width: 100%;
+    }
+    
+    .footer-nav li, .social-links li {
+        margin: 0 0.25%;
+    }
+}
+
