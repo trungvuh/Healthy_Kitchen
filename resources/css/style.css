@@ -125,8 +125,13 @@ header {
     margin-top: 1rem;
 }
 
+/* -----------------------------
+            Navigation
+--------------------------------*/
+
 
 /* Main navigation */
+
 
 .main-nav {
     float: right;
@@ -156,7 +161,9 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+
 /*  Sticky Navigation  */
+
 
 .logo-black {
     height: 2.5rem;
@@ -194,6 +201,29 @@ header {
 .sticky .logo-black {
     display: block;
 }
+
+
+/*  Mobile Navigation  */
+
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-bottom: none;
+    display: none;
+}
+
+.mobile-nav-icon:hover {
+    color: #fff;
+    border-bottom: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 /* -----------------------------
             Button

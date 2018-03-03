@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/trungvuh/Healthy_Kitchen/issues"
   },
-  "homepage": "https://github.com/trungvuh/Healthy_Kitchen#readme",
+  "homepage": "https://github.com/trungvuh/LunchPlan#readme",
   "dependencies": {
     "html5shiv": "^3.7.3",
     "jquery": "^3.3.1",
