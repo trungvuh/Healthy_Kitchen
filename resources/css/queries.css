@@ -230,6 +230,14 @@
         margin-left: 25%;
     }
     
+    footer {
+        font-size: 100%;
+    }
+    
+    .footer-nav li {
+        margin: 0 0.5%;
+    }
+    
 }
 
 
