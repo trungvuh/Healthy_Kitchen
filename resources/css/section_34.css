@@ -1,0 +1,71 @@
+
+/* -----------------------------
+    Section 3 - How it works
+--------------------------------*/
+
+.section-steps {
+    background-color: #e8e8e8;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 2rem;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 5rem;
+}
+
+.steps-box a {
+    border-bottom: 0;
+}
+
+.app-screen {
+    width: 40%;
+    height: auto;
+}
+
+.work-step {
+    margin-bottom: 2.5rem;
+}
+
+.work-step:last-of-type {
+    margin-bottom: 4rem;
+}
+
+.work-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 2.4rem;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 140%;
+    float: left;
+    padding: 6px;
+    margin-right: 2rem;
+}
+
+.btn-app img {
+    height: 2.5rem;
+    width: auto;
+    margin-right: 1rem;
+}
+
+/* -----------------------------
+    Section 4 - City
+--------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.city-feature {
+    margin-bottom: 0.25rem;
+}
+
