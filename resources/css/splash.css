@@ -4,10 +4,8 @@
 
 
 header {
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/hero.jpg');
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/hero.jpg');
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/hero.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('img/hero.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://res.cloudinary.com/trungvuh/image/upload/q_50/v1520108650/hero_l53clh.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://res.cloudinary.com/trungvuh/image/upload/q_50/v1520108650/hero_l53clh.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
