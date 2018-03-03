@@ -22,6 +22,14 @@
     .footer-nav li, .social-links li {
         margin: 0 0.25%;
     }
+    
+    .section-cities div:last-child {
+        font-size: 90%;
+    }
+    
+    .section-plans div:last-child {
+        font-size: 90%;
+    }
 }
 
 
@@ -74,7 +82,7 @@
     .plan-box {
         width: 100%;
         margin-left: 0%;
-        font-size: 80%;
+        font-size: 90%;
     }
     
     
