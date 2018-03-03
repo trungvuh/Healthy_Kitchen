@@ -215,6 +215,14 @@
         text-align: center;
         margin-top: 0;
     }
+    
+    header {
+        background-attachment: scroll;
+    }
+    
+    .section-testimonials {
+        background-attachment: scroll;
+    }
 }
 
 
