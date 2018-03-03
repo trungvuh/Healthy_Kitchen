@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    
+    //  For the sticky navigation
+    
     $('.js--section-features').waypoint(function(direction) {
         if (direction === "down") {
             $('nav').addClass('sticky');
@@ -9,6 +12,7 @@ $(document).ready(function() {
         offset: '60px'
     });
     
+    //  Scrolling effect
     $('.js--scroll-to-plans').click(function() {
         $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
     });
@@ -18,6 +22,7 @@ $(document).ready(function() {
     });
     
     // Select all links with hashes
+    
     $('a[href*="#"]')
       // Remove links that don't actually link to anything
       .not('[href="#"]')
@@ -54,4 +59,31 @@ $(document).ready(function() {
         }
     });
     
+    
+    //  Animation
+    
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');    
+    },{
+        offset: '50%'
+    });
+    
+    $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated fadeInUp');    
+    },{
+        offset: '50%'
+    });
+    
+    $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated zoomIn');    
+    },{
+        offset: '50%'
+    });
+    
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated bounce');    
+    },{
+        offset: '50%'
+    });
+
 });
