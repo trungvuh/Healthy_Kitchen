@@ -194,8 +194,8 @@
         margin-left: 35%;
     }
     
-    .btn-app {
-        margin-left: 13%;
+    .btn-app img {
+        margin: 0 10%;
     }
     
     footer {
@@ -228,7 +228,7 @@
 
 /*  Fr small phones  */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 527px) {
     
     section {
         padding: 1.5rem;
@@ -236,10 +236,6 @@
     
     .contact-form {
         width: 100%;
-    }
-    
-    .btn-app {
-        margin-left: 2%;
     }
     
     .city-feature {
@@ -252,6 +248,23 @@
     
     .footer-nav li {
         margin: 0 0.5%;
+    }
+    
+    .steps-box:last-child {
+        padding: 0;
+    }
+    
+    .btn-app img {
+        max-height: 40px;
+        margin: 0 5%;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .btn-app img {
+        max-height: 30px;
+        margin: 0 7%;
     }
     
 }
